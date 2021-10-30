@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #119200;
+  margin: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.name {
+  margin-left: 10px;
+  color: rgb(138, 78, 0);
+}
+
+.button {
+  margin: 30px 25px;
+  width: 60px;
+  height: 35px;
+
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 31, 31);
+  border-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(250, 32, 32);
+  color: rgb(22, 22, 22);
+}

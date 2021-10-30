@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  height: 80px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 25px;
+  font-weight: 700;
+  color: rgb(63, 63, 63);
+  font-size: 20px;
+}
+
+.activeLink {
+  color: #119200;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  border-bottom: 1px solid #2a363b;
+  background-color: #c4c4c4;
+}
